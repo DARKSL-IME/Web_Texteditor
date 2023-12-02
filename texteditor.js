@@ -40,3 +40,11 @@ function clickTextAlignment(align) {
     }
 
 }
+
+function clickundo() {
+    document.execCommand('undo', true, null);
+}
+
+function clickredo() {
+    document.execCommand('redo', true, null);
+}
