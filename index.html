@@ -20,30 +20,32 @@
         <div class="container">
                <div class="toolbar">
     
-                   <button onclick="clickBold()" > <img src="Resources\Bold.png"  ></button>
+                <button onclick="clickBold()" title="Bold" > <img src="Resources\Bold.png" alt="bold" ></button>
 
-                   <button onclick="clickUnderline()"> <img src="Resources\Underline.png"  ></button>
+                <button onclick="clickUnderline()"  title="Underline"> <img src="Resources\Underline.png" alt="underline" ></button>
+
+                <button onclick="clickItalic()"  title="Italic"> <img src="Resources\italic.png"  alt="Ïtalic"></button>
+
                
-                   <button onclick="clickItalic()" > <img src="Resources\italic.png"  ></button>
-
-                   <button id="colorPickerButton" onclick="colorPickeropen()"><img src="Resources\A.png"  >  
+                 <button id="colorPickerButton" onclick="colorPickeropen()"  title="colorpick"><img src="Resources\A.png" alt="colorpick"  >  
+                 
                     <input type="color" id="fontColorPicker" style="display:none;" onchange="changeFontColor()">
                     
-                   </button>
+                </button>
+             
 
-                   
-                   <button onclick="clickTextAlignment('left')"> <img src="Resources\left.png"  ></button>
+                <button onclick="clickTextAlignment('left')" title="left"> <img src="Resources\left.png" alt="left" ></button>
 
-                        
-                   <button onclick="clickTextAlignment('center')"> <img src="Resources\center.png"  ></button>
+                
+                <button onclick="clickTextAlignment('center')" title="center"> <img src="Resources\center.png" alt="center" ></button>
 
-                   <button onclick="clickTextAlignment('right')"> <img src="Resources\right.png"  ></button>
+                <button onclick="clickTextAlignment('right')" title="right"> <img src="Resources\right.png" alt="right" ></button>
 
-                   <button onclick="clickTextAlignment('justify')"> <img src="Resources\justify.png"  ></button>
+                <button onclick="clickTextAlignment('justify')" title="Justify"> <img src="Resources\justify.png" alt="Justify" ></button>
 
-                   <button onclick="clickundo()"> <img src="Resources\Undo.png"  ></button>
+                <button onclick="clickundo()" title="undo" > <img src="Resources\Undo.png" alt="undo" ></button>
 
-                   <button onclick="clickredo()"> <img src="Resources\Redo.png"  ></button>
+                <button onclick="clickredo()" title="redo"> <img src="Resources\Redo.png" alt="undo" ></button>
 
 
 
