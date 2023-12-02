@@ -6,3 +6,8 @@ function clickBold() {
 function clickUnderline() {
     document.execCommand('underline', true, null);
 }
+
+
+function clickItalic() {
+    document.execCommand('italic', true, null);
+}
