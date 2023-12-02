@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 1px;
+  
+}
+
+.header-bar {
+    text-align: center;
+    height: 50;
+}
+
+.toolbar {
+    display: flex;
+   justify-content: center;
+   border: none;
+}
+
+
+.toolbar button {
+    margin-right: 10px;
+    padding: 0; 
+
+    border: none;
+    cursor: pointer;
+    background: transparent; 
+    height: 40px;
+    width: 40px; 
+   
+}
+
+.toolbar button img {
+    width: 20px; 
+    height: 20px;
+   
+}
+
+.toolbar button:focus {
+    outline: none;
+}
+
+
+
+
+.editor {
+    margin: 30px;
+    border: 1px solid #bab8b8;
+    padding: 20px;
+    max-width: 1200px;
+    min-height: 400px;
+     
+}
+
+
+
